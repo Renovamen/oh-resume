@@ -10,12 +10,12 @@ export const i18n: NuxtI18nOptions = {
       icon: "i-icon-park-outline:english",
       file: "en.yaml"
     },
-    {
-      code: "sp",
-      name: "Spanish",
-      icon: "i-material-symbols:language-spanish",
-      file: "sp.yaml"
-    },
+    // {
+    //   code: "sp",
+    //   name: "Spanish",
+    //   icon: "i-material-symbols:language-spanish",
+    //   file: "sp.yaml"
+    // },
     {
       code: "zh-cn",
       name: "简体中文",
