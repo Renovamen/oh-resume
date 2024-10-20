@@ -1,3 +1,6 @@
+# This is a fork from [oh-my-cv](https://github.com/Renovamen/oh-my-cv)
+
+
 # Oh My CV!
 
 Microsoft Word and LaTeX are too overkill for a resume.
