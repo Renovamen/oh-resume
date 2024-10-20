@@ -1,0 +1,85 @@
+lang: 語言
+
+toggle_theme: 切換顏色模式
+open_toolbar: 打開工具欄
+close_toolbar: 關閉工具欄
+
+head:
+  title: Oh My CV! - 免費的在線履歷製作工具
+  desc: 免費的在線履歷製作工具，使用 Markdown 來輕鬆製作您的履歷！
+  keywords: Markdown 履歷, 履歷製作, 在線履歷
+
+landing:
+  hero: 用 Markdown 寫<span text-primary>履歷</span>！
+  desc: 能讓您輕鬆地製作和管理履歷，它開源免費，且絕不會（也無法）收集您的資料
+  start: 開始製作履歷
+  feats:
+    - title: 簡單且強大
+      items: 創建並管理多份履歷<br>即時預覽<br>導出為 PDF 格式<br>可定制程度高<br>輕鬆切換字體和添加圖示<br>以及<a href="https://github.com/Renovamen/oh-my-cv#features" target="_blank">更多特性</a>
+    - title: 隱私優先
+      items: 開源免費<br>資料保存在本地<br>無需登入或註冊<br>沒有用戶追蹤<br>沒有廣告
+
+dashboard:
+  my_resumes: 我的履歷
+  created: 創建於：
+  updated: 更新於：
+  new: 新建
+  saveas: 另存為...
+  import: 從...導入
+  duplicate: 創建副本
+  rename: 重命名
+  delete: 刪除
+
+toolbar:
+  file:
+    title: 文件
+    save: 保存
+    rename: 重命名
+    import:
+      trigger: 導入 Markdown
+      dialog:
+        header: 上傳一個 Markdown 文件
+        from_local: 將文件拖曳至這裡，或點擊這裡以選擇文件
+        from_url: 粘貼文件 URL
+    export_pdf:
+      title: 導出為 PDF
+      alert:
+        title: 注意
+        content: 在 Windows 上列印時，請在列印設定彈窗中選擇「另存為 PDF」，而<b>不是</b>「Microsoft Print to PDF」。
+    export_md: 導出為 Markdown
+  correct_case:
+    title: 專有名詞大小寫修正
+    example:
+      title: 例子
+      content: |
+        "Github" → "GitHub"
+    note:
+      title: 解釋
+      content: 不會修正全為大寫或小寫字母的單詞（如「GITHUB」或「github」）。
+    btn: 修正
+  paper_size: 紙張尺寸
+  theme_color: 主題色
+  font_family:
+    title: 字體
+    cjk: 中日韓
+    en: 英文
+  font_size: 字號
+  margins:
+    title: 頁邊距
+    vertical: 上下
+    horizontal: 左右
+  paragraph_spacing: 段間距
+  line_height: 行間距
+
+notification:
+  save: 保存成功
+  switch: 已切換到履歷 "{msg}"
+  delete: 已刪除履歷 "{msg}"
+  new: 新建成功
+  duplicate: 已創建履歷 "{old}" 的副本 "{new}"
+  correct:
+    yes: 成功修正 {num} 個單詞
+    no: 您的所有拼寫都是正確的！
+  import:
+    yes: 已成功導入資料！
+    no: 資料格式不正確
