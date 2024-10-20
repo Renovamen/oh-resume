@@ -22,11 +22,12 @@ export const i18n: NuxtI18nOptions = {
       name: "繁體中文",
       icon: "i-icon-park-outline:chinese",
       file: "zh-tw.yaml"
-    },{
+    },
+    {
       Code: "zh-cn",
       name: "简体中文",
       icon: "i-icon-park-outline:chinese",
-      file: "zh-cn.yaml"
+      file: "zh.yaml"
     }
   ],
   langDir: "i18n",
