@@ -29,6 +29,7 @@
     "build:pkg": "pnpm run build-fast:pkg --dts"
   },
   "dependencies": {
+    "@ohmycv/case-police": "file:",
     "case-police": "^0.6.1"
   },
   "publishConfig": {

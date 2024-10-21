@@ -34,6 +34,7 @@
     "build:pkg": "pnpm run build-fast:pkg --dts"
   },
   "dependencies": {
+    "@ohmycv/front-matter": "file:",
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {

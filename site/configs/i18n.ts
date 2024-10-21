@@ -1,4 +1,5 @@
 import type { NuxtI18nOptions } from "@nuxtjs/i18n";
+import Code from "../src/components/editor/Code.vue";
 
 export const i18n: NuxtI18nOptions = {
   defaultLocale: "en",
@@ -17,10 +18,15 @@ export const i18n: NuxtI18nOptions = {
       file: "sp.yaml"
     },
     {
-      code: "zh",
-      name: "中文",
+      code: "zh-tw",
+      name: "繁體中文",
       icon: "i-icon-park-outline:chinese",
-      file: "zh.yaml"
+      file: "zh-tw.yaml"
+    },{
+      Code: "zh-cn",
+      name: "简体中文",
+      icon: "i-icon-park-outline:chinese",
+      file: "zh-cn.yaml"
     }
   ],
   langDir: "i18n",

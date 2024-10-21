@@ -34,5 +34,8 @@
         "eslint": "9"
       }
     }
+  },
+  "dependencies": {
+    "oh-my-cv": "file:"
   }
 }

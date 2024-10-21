@@ -1,0 +1,85 @@
+lang: 语言
+
+toggle_theme: 切换颜色模式
+open_toolbar: 打开工具栏
+close_toolbar: 关闭工具栏
+
+head:
+  title: Oh My CV! - 免费的在线简历制作工具
+  desc: 免费的在线简历制作工具，使用 Markdown 来轻松制作您的简历！
+  keywords: Markdown 简历, 简历制作, 在线简历
+
+landing:
+  hero: 用 Markdown 写<span text-primary>简历</span>！
+  desc: 能让您轻松地制作和管理简历，它开源免费，且绝不会（也无法）收集您的数据
+  start: 开始制作简历
+  feats:
+    - title: 简单且强大
+      items: 创建并管理多份简历<br>实时预览<br>导出为 PDF 格式<br>可定制程度高<br>轻松切换字体和添加图标<br>以及<a href="https://github.com/Renovamen/oh-my-cv#features" target="_blank">更多特性</a>
+    - title: 隐私优先
+      items: 开源免费<br>数据保存在本地<br>无需登录或注册<br>没有用户追踪<br>没有广告
+
+dashboard:
+  my_resumes: 我的简历
+  created: 创建于：
+  updated: 更新于：
+  new: 新建
+  saveas: 另存为...
+  import: 从...导入
+  duplicate: 创建副本
+  rename: 重命名
+  delete: 删除
+
+toolbar:
+  file:
+    title: 文件
+    save: 保存
+    rename: 重命名
+    import:
+      trigger: 导入 Markdown
+      dialog:
+        header: 上传一个 Markdown 文件
+        from_local: 将文件拖拽至这里，或点击这里以选择文件
+        from_url: 粘贴文件 URL
+    export_pdf:
+      title: 导出为 PDF
+      alert:
+        title: 注意
+        content: 在 Windows 上打印时，请在打印设置弹窗中选择“另存为 PDF”，而<b>不是</b>“Microsoft Print to PDF”。
+    export_md: 导出为 Markdown
+  correct_case:
+    title: 专有名词大小写修正
+    example:
+      title: 例子
+      content: |
+        "Github" → "GitHub"
+    note:
+      title: 解释
+      content: 不会修正全为大写或小写字母的单词（如“GITHUB”或“github”）。
+    btn : 修正
+  paper_size: 纸张尺寸
+  theme_color: 主题色
+  font_family:
+    title: 字体
+    cjk: 中日韩
+    en: 英文
+  font_size: 字号
+  margins:
+    title: 页边距
+    vertical: 上下
+    horizontal: 左右
+  paragraph_spacing: 段间距
+  line_height: 行间距
+
+notification:
+  save: 保存成功
+  switch: 已切换到简历 "{msg}"
+  delete: 已删除简历 "{msg}"
+  new: 新建成功
+  duplicate: 已创建简历 "{old}" 的副本 "{new}"
+  correct:
+    yes: 成功修正 {num} 个单词
+    no : 您的所有拼写都是正确的！
+  import:
+    yes: 已成功导入数据！
+    no : 数据格式不正确

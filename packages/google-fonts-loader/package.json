@@ -34,5 +34,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@ohmycv/google-fonts-loader": "file:"
   }
 }
