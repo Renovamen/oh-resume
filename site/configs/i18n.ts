@@ -17,10 +17,16 @@ export const i18n: NuxtI18nOptions = {
       file: "sp.yaml"
     },
     {
-      code: "zh",
-      name: "中文",
+      code: "zh-tw",
+      name: "繁體中文",
       icon: "i-icon-park-outline:chinese",
-      file: "zh.yaml"
+      file: "zh-tw.yaml"
+    },
+    {
+      code: "zh-cn",
+      name: "简体中文",
+      icon: "i-icon-park-outline:chinese",
+      file: "zh-cn.yaml"
     }
   ],
   langDir: "i18n",
