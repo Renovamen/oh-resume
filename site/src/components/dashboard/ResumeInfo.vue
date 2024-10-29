@@ -18,7 +18,7 @@
 </template>
 
 <script lang="ts" setup>
-import { isInteger } from "@renovamen/utils";
+import { isInteger } from "@ohmycv/utils";
 import type { DbResume } from "~/utils/storage";
 
 const props = defineProps<{

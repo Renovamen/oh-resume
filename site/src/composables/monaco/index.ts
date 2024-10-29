@@ -1,4 +1,4 @@
-import { isClient } from "@renovamen/utils";
+import { isClient } from "@ohmycv/utils";
 import type * as Monaco from "monaco-editor";
 import { setupMonacoModel, setupMonacoEditor, type MonacoModel } from "./setup";
 

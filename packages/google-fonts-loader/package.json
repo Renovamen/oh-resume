@@ -1,19 +1,19 @@
 {
   "name": "@ohmycv/google-fonts-loader",
   "version": "0.1.1",
-  "description": "Load Goolge Fonts with ease.",
+  "description": "Load Google Fonts with ease.",
   "keywords": [
     "google fonts",
     "fonts"
   ],
-  "homepage": "https://github.com/Renovamen/oh-my-cv/tree/main/packages/gfonts-loader",
+  "homepage": "https://github.com/Renovamen/oh-my-cv/tree/main/packages/google-fonts-loader",
   "bugs": {
     "url": "https://github.com/Renovamen/oh-my-cv"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Renovamen/oh-my-cv.git",
-    "directory": "packages/gfonts-loader"
+    "directory": "packages/google-fonts-loader"
   },
   "license": "MIT",
   "author": "Renovamen <renovamenzxh@gmail.com>",

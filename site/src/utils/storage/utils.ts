@@ -1,5 +1,5 @@
 import * as localForage from "localforage";
-import { isObject, isInteger, arrayify } from "@renovamen/utils";
+import { isObject, isInteger, arrayify } from "@ohmycv/utils";
 import type { ValidVersion } from "~/composables/constant";
 import type { ResumeStyles } from "~/composables/stores/style";
 import type { DbResume } from "./db";

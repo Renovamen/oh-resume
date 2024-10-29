@@ -37,7 +37,7 @@
     "build:pkg": "pnpm run build-fast:pkg --dts"
   },
   "dependencies": {
-    "@renovamen/utils": "workspace:*",
+    "@ohmycv/utils": "workspace:*",
     "katex": "^0.16.11"
   },
   "devDependencies": {

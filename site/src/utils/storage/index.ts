@@ -1,4 +1,4 @@
-import { downloadFile } from "@renovamen/utils";
+import { downloadFile } from "@ohmycv/utils";
 import type { ValidVersion } from "~/composables/constant";
 import { LocalForageDbService } from "./localForage";
 import { setResume, IsValid } from "./utils";

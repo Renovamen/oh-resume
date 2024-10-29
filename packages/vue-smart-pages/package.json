@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.11.0",
+    "ts-debounce": "^4.0.0",
     "vue": "^3.4.31"
   },
   "publishConfig": {

@@ -16,7 +16,7 @@
 
 <script lang="ts" setup>
 import { useShortcuts } from "@ohmycv/vue-shortcuts";
-import { useFileDialog, readFile } from "@renovamen/utils";
+import { useFileDialog, readFile } from "@ohmycv/utils";
 
 const emits = defineEmits<{
   (e: "update"): void;

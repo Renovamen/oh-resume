@@ -1,4 +1,4 @@
-import { copy } from "@renovamen/utils";
+import { copy } from "@ohmycv/utils";
 import type { ValidPaperSize, Font } from "~/composables/constant";
 
 export type ResumeStyles = {

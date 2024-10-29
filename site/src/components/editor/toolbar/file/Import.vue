@@ -60,7 +60,7 @@
 <script lang="ts" setup>
 import * as fileUpload from "@zag-js/file-upload";
 import { normalizeProps, useMachine } from "@zag-js/vue";
-import { fetchFile } from "@renovamen/utils";
+import { fetchFile } from "@ohmycv/utils";
 
 const { setAndSyncToMonaco } = useDataStore();
 

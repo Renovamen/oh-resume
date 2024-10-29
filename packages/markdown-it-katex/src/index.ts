@@ -5,7 +5,7 @@ import type {
   ParserBlock,
   ParserInline
 } from "markdown-it";
-import { htmlEscape } from "@renovamen/utils";
+import { htmlEscape } from "@ohmycv/utils";
 
 const isValidDelim = (
   state: StateInline,
